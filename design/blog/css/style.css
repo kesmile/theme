@@ -1,0 +1,182 @@
+/*
+ *  header style
+ */
+header{
+  background: #262526;/*#3d495f;*/
+  width: 100%;
+  height: 18%;
+  padding-top: 23px;
+}
+
+#menu{
+  float: right;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin-top: 30px;
+}
+#menu ul li{
+  list-style: none;
+  display: inline-block;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  }
+#menu ul li:hover , #menu ul li a:hover{
+  background: #008080;
+  color: #fff;
+  border-radius: 4px;
+}
+#menu ul li a:hover{
+  
+}
+#menu ul li a{
+  color: #fff;
+  font-size: 18px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.fixed{
+  position: fixed;
+  height: 50px;
+  padding-top: 10px;
+}
+.fixed #menu{
+  margin-top: 0;
+}
+.fixed h1{
+  padding-top: 0;
+  margin-top: -18px;
+  color: #fff;
+}
+/*
+ *  Articulos o post
+ */
+article{
+  font-size: 13px;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  border-bottom: 1px solid #b3b3b3;
+}
+article:last-child{
+  border: none;
+}
+article h3{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+#img{
+  padding-top: 15px;
+}
+#metadata{
+  color: #b3b3b3;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+#shared{
+  width: 100%;
+  height: auto;
+  font-size: 15px;
+  padding-bottom: 5px;
+  color: #b3b3b3;
+}
+#shared .sp{
+  width: 25px;
+  float: left;
+  display: block;
+  padding-top: 0px;
+  margin-top: -5px;
+  font-size: 25px;
+  color: #000;
+}
+#shared .sp:hover{
+  color: #008CBA;
+}
+.shared-txt{
+  float: left;
+  display: block;
+  margin-right: 15px;
+  margin-left: 5px;
+  color: #b3b3b3;
+}
+.shared-txt a{
+  color: #b3b3b3 !important;
+}
+.shared-txt a:hover{
+  color: #008CBA !important;
+}
+/* 134e6d
+ * 3e8686
+ * 6fbe9d
+ *  Sidebar
+ */
+#sidebar{
+  padding-top: 3%;
+  
+}
+#sidebar a{
+  color: #6F6F6F;
+}
+#sidebar a:hover{
+  color: #6fbe9d;
+}
+#sidebar .title{
+  color: #fff;
+  padding-left: 15px;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  
+}
+#sidebar .buscar{
+  background: #074e6f;
+  margin-bottom: 15px;
+}
+#sidebar .cat{
+  background: #074e6f;
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+#sidebar .coment{
+  background: #074e6f;
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+/*
+ *  paginado
+ */
+#paginado{
+  margin-top: 2%;
+}
+
+
+/*
+ * Footer
+ */
+footer{
+  width: 100%;
+  height: 150px;
+  background: #000;
+  padding-top: 1%;
+  color: #fff;
+}
+footer h3{
+  color: #fff;
+  font-size: 20px;
+}
+
+
+/*
+ *  CSS BLOG
+ */
+
+#post{
+  padding-top: 4%;
+  padding-right: 2%;
+}
+#metadata-post{
+  margin-bottom: 2%;
+  color: #b3b3b3;
+  font-style: italic;
+}

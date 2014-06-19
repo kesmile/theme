@@ -1,0 +1,40 @@
+/*
+ *  header style
+ */
+header{
+  background: #fff;
+  width: 100%;
+  height: 18%;
+  border-bottom: 1px #666666 solid;
+  padding-top: 23px;
+}
+#menu{
+  float: right;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin-top: 30px;
+}
+#menu ul li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  }
+#menu ul li a{
+  color: #666666;
+  font-size: 18px;
+}
+
+/*
+ *  Articulos o post
+ */
+article h3{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+#metadata{
+  color: #b3b3b3;
+  font-style: italic;
+  margin-bottom: 5px;
+}
